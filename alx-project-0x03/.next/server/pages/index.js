@@ -23,6 +23,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(pages-dir-node)/./components/common/Button.tsx":
+/*!**************************************!*\
+  !*** ./components/common/Button.tsx ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action })=>{\n    const backgroundColorClass = buttonBackgroundColor ? ({\n        red: 'bg-red-500',\n        blue: 'bg-blue-500',\n        orange: 'bg-orange-500',\n        green: 'bg-green-500'\n    })[buttonBackgroundColor] : 'bg-slate-500';\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        onClick: action,\n        className: `${backgroundColorClass} ${buttonSize} px-6 py-2 text-sm font-semibold rounded-lg hover:${backgroundColorClass}/50 transition duration-300 text-white`,\n        children: buttonLabel\n    }, void 0, false, {\n        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/components/common/Button.tsx\",\n        lineNumber: 20,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL2NvbXBvbmVudHMvY29tbW9uL0J1dHRvbi50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQVFBLE1BQU1BLFNBQVMsQ0FBQyxFQUFFQyxXQUFXLEVBQUVDLFVBQVUsRUFBRUMscUJBQXFCLEVBQUVDLE1BQU0sRUFBZTtJQUVyRixNQUFNQyx1QkFBdUJGLHdCQUF3QjtRQUNuREcsS0FBSztRQUNMQyxNQUFNO1FBQ05DLFFBQVE7UUFDUkMsT0FBTztJQUNULEVBQUMsQ0FBQ04sc0JBQXNCLEdBQUc7SUFHM0IscUJBQ0UsOERBQUNPO1FBQU9DLFNBQVNQO1FBQVFRLFdBQVcsR0FBR1AscUJBQXFCLENBQUMsRUFBRUgsV0FBVyxrREFBa0QsRUFBRUcscUJBQXFCLHNDQUFzQyxDQUFDO2tCQUN2TEo7Ozs7OztBQUdQO0FBRUEsaUVBQWVELE1BQU1BLEVBQUMiLCJzb3VyY2VzIjpbIi9ob21lL2NhbGViL0RvY3VtZW50cy9BbHggUHJvRGV2L2FseC1wcm9qZWN0LTB4MDMtc2V0dXAvYWx4LXByb2plY3QtMHgwMy9jb21wb25lbnRzL2NvbW1vbi9CdXR0b24udHN4Il0sInNvdXJjZXNDb250ZW50IjpbImludGVyZmFjZSBCdXR0b25Qcm9wcyB7XG4gIGJ1dHRvbkxhYmVsOiBzdHJpbmdcbiAgYnV0dG9uU2l6ZT86IHN0cmluZ1xuICBidXR0b25CYWNrZ3JvdW5kQ29sb3I/OiAncmVkJyB8ICdibHVlJyB8ICdvcmFuZ2UnIHwgJ2dyZWVuJ1xuICBhY3Rpb24/OiAoKSA9PiB2b2lkXG59XG5cblxuY29uc3QgQnV0dG9uID0gKHsgYnV0dG9uTGFiZWwsIGJ1dHRvblNpemUsIGJ1dHRvbkJhY2tncm91bmRDb2xvciwgYWN0aW9uIH06IEJ1dHRvblByb3BzKSA9PiB7XG5cbiAgY29uc3QgYmFja2dyb3VuZENvbG9yQ2xhc3MgPSBidXR0b25CYWNrZ3JvdW5kQ29sb3IgPyB7XG4gICAgcmVkOiAnYmctcmVkLTUwMCcsXG4gICAgYmx1ZTogJ2JnLWJsdWUtNTAwJyxcbiAgICBvcmFuZ2U6ICdiZy1vcmFuZ2UtNTAwJyxcbiAgICBncmVlbjogJ2JnLWdyZWVuLTUwMCcsXG4gIH1bYnV0dG9uQmFja2dyb3VuZENvbG9yXSA6ICdiZy1zbGF0ZS01MDAnXG5cblxuICByZXR1cm4gKFxuICAgIDxidXR0b24gb25DbGljaz17YWN0aW9ufSBjbGFzc05hbWU9e2Ake2JhY2tncm91bmRDb2xvckNsYXNzfSAke2J1dHRvblNpemV9IHB4LTYgcHktMiB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1sZyBob3Zlcjoke2JhY2tncm91bmRDb2xvckNsYXNzfS81MCB0cmFuc2l0aW9uIGR1cmF0aW9uLTMwMCB0ZXh0LXdoaXRlYH0+XG4gICAgICB7YnV0dG9uTGFiZWx9XG4gICAgPC9idXR0b24+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgQnV0dG9uO1xuXG4iXSwibmFtZXMiOlsiQnV0dG9uIiwiYnV0dG9uTGFiZWwiLCJidXR0b25TaXplIiwiYnV0dG9uQmFja2dyb3VuZENvbG9yIiwiYWN0aW9uIiwiYmFja2dyb3VuZENvbG9yQ2xhc3MiLCJyZWQiLCJibHVlIiwib3JhbmdlIiwiZ3JlZW4iLCJidXR0b24iLCJvbkNsaWNrIiwiY2xhc3NOYW1lIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(pages-dir-node)/./components/common/Button.tsx\n");
+
+/***/ }),
+
 /***/ "(pages-dir-node)/./pages/_app.tsx":
 /*!************************!*\
   !*** ./pages/_app.tsx ***!
@@ -52,7 +63,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Home = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \" Welcome to Splash App \"\n        }, void 0, false, {\n            fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n            lineNumber: 4,\n            columnNumber: 5\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n        lineNumber: 3,\n        columnNumber: 4\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3BhZ2VzL2luZGV4LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUEsTUFBTUEsT0FBTztJQUNYLHFCQUNDLDhEQUFDQztrQkFDQSw0RUFBQ0M7c0JBQUc7Ozs7Ozs7Ozs7O0FBR1I7QUFFQSxpRUFBZUYsSUFBSUEsRUFBQyIsInNvdXJjZXMiOlsiL2hvbWUvY2FsZWIvRG9jdW1lbnRzL0FseCBQcm9EZXYvYWx4LXByb2plY3QtMHgwMy1zZXR1cC9hbHgtcHJvamVjdC0weDAzL3BhZ2VzL2luZGV4LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBIb21lID0gKCkgPT4ge1xuICByZXR1cm4gKFxuICAgPGRpdj5cbiAgICA8aDE+IFdlbGNvbWUgdG8gU3BsYXNoIEFwcCA8L2gxPlxuICAgPC9kaXY+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXSwibmFtZXMiOlsiSG9tZSIsImRpdiIsImgxIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(pages-dir-node)/./pages/index.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_common_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/common/Button */ \"(pages-dir-node)/./components/common/Button.tsx\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"(pages-dir-node)/../node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Home() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    // Imeperative routing with useRouter\n    const routeToNextPage = ({ pageRoute })=>{\n        router.push(pageRoute, undefined, {\n            shallow: false\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                className: \"text-4xl font-bold text-gray-800 mb-4\",\n                children: \"Welcome to Splash App!\"\n            }, void 0, false, {\n                fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: \"text-lg text-gray-600 mb-8\",\n                children: \"Your one-stop platform for everything AI you need. Start exploring by navigating to our features below.\"\n            }, void 0, false, {\n                fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex gap-6\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_common_Button__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                        action: ()=>routeToNextPage({\n                                pageRoute: '/generate-text-ai'\n                            }),\n                        buttonLabel: \"Generate Text\",\n                        buttonBackgroundColor: \"blue\"\n                    }, void 0, false, {\n                        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                        lineNumber: 29,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_common_Button__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                        action: ()=>routeToNextPage({\n                                pageRoute: '/text-to-image'\n                            }),\n                        buttonLabel: \"Text to Image\",\n                        buttonBackgroundColor: \"green\"\n                    }, void 0, false, {\n                        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_common_Button__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                        action: ()=>routeToNextPage({\n                                pageRoute: '/counter-app'\n                            }),\n                        buttonLabel: \"Contact us\",\n                        buttonBackgroundColor: \"orange\"\n                    }, void 0, false, {\n                        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/caleb/Documents/Alx ProDev/alx-project-0x03-setup/alx-project-0x03/pages/index.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3BhZ2VzL2luZGV4LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQWdEO0FBQ1I7QUFNekIsU0FBU0U7SUFDdEIsTUFBTUMsU0FBU0Ysc0RBQVNBO0lBRXhCLHFDQUFxQztJQUNyQyxNQUFNRyxrQkFBbUIsQ0FBQyxFQUFFQyxTQUFTLEVBQWtCO1FBQ3JERixPQUFPRyxJQUFJLENBQUNELFdBQVdFLFdBQVc7WUFBRUMsU0FBUztRQUFLO0lBQ3BEO0lBRUEscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVU7OzBCQUViLDhEQUFDQztnQkFBR0QsV0FBVTswQkFBd0M7Ozs7OzswQkFHdEQsOERBQUNFO2dCQUFFRixXQUFVOzBCQUE2Qjs7Ozs7OzBCQU0xQyw4REFBQ0Q7Z0JBQUlDLFdBQVU7O2tDQUNiLDhEQUFDVixpRUFBTUE7d0JBQUNhLFFBQVEsSUFBTVQsZ0JBQWdCO2dDQUFFQyxXQUFXOzRCQUFvQjt3QkFBSVMsYUFBWTt3QkFBZ0JDLHVCQUFzQjs7Ozs7O2tDQUM3SCw4REFBQ2YsaUVBQU1BO3dCQUFDYSxRQUFRLElBQU1ULGdCQUFnQjtnQ0FBRUMsV0FBVzs0QkFBZ0I7d0JBQUlTLGFBQVk7d0JBQWdCQyx1QkFBc0I7Ozs7OztrQ0FDekgsOERBQUNmLGlFQUFNQTt3QkFBQ2EsUUFBUSxJQUFNVCxnQkFBZ0I7Z0NBQUVDLFdBQVc7NEJBQWM7d0JBQUlTLGFBQVk7d0JBQWFDLHVCQUFzQjs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSTVIIiwic291cmNlcyI6WyIvaG9tZS9jYWxlYi9Eb2N1bWVudHMvQWx4IFByb0Rldi9hbHgtcHJvamVjdC0weDAzLXNldHVwL2FseC1wcm9qZWN0LTB4MDMvcGFnZXMvaW5kZXgudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBCdXR0b24gZnJvbSBcIkAvY29tcG9uZW50cy9jb21tb24vQnV0dG9uXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcblxuaW50ZXJmYWNlIFBhZ2VSb3V0ZVByb3BzIHtcbiAgcGFnZVJvdXRlOiBzdHJpbmdcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKClcblxuICAvLyBJbWVwZXJhdGl2ZSByb3V0aW5nIHdpdGggdXNlUm91dGVyXG4gIGNvbnN0IHJvdXRlVG9OZXh0UGFnZSAgPSAoeyBwYWdlUm91dGUgfTogUGFnZVJvdXRlUHJvcHMpID0+IHtcbiAgICByb3V0ZXIucHVzaChwYWdlUm91dGUsIHVuZGVmaW5lZCwgeyBzaGFsbG93OiBmYWxzZX0pXG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwibWluLWgtc2NyZWVuIGJnLWdyYXktMTAwIGZsZXggZmxleC1jb2wganVzdGlmeS1jZW50ZXIgaXRlbXMtY2VudGVyIHRleHQtY2VudGVyXCI+XG4gICAgICB7LyogV2VsY29tZSBNZXNzYWdlICovfVxuICAgICAgPGgxIGNsYXNzTmFtZT1cInRleHQtNHhsIGZvbnQtYm9sZCB0ZXh0LWdyYXktODAwIG1iLTRcIj5cbiAgICAgICAgV2VsY29tZSB0byBTcGxhc2ggQXBwIVxuICAgICAgPC9oMT5cbiAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtbGcgdGV4dC1ncmF5LTYwMCBtYi04XCI+XG4gICAgICAgIFlvdXIgb25lLXN0b3AgcGxhdGZvcm0gZm9yIGV2ZXJ5dGhpbmcgQUkgeW91IG5lZWQuIFN0YXJ0IGV4cGxvcmluZyBieVxuICAgICAgICBuYXZpZ2F0aW5nIHRvIG91ciBmZWF0dXJlcyBiZWxvdy5cbiAgICAgIDwvcD5cblxuICAgICAgey8qIE5hdmlnYXRpb24gT3B0aW9ucyAqL31cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBnYXAtNlwiPlxuICAgICAgICA8QnV0dG9uIGFjdGlvbj17KCkgPT4gcm91dGVUb05leHRQYWdlKHsgcGFnZVJvdXRlOiAnL2dlbmVyYXRlLXRleHQtYWknIH0pfSBidXR0b25MYWJlbD1cIkdlbmVyYXRlIFRleHRcIiBidXR0b25CYWNrZ3JvdW5kQ29sb3I9XCJibHVlXCIgLz5cbiAgICAgICAgPEJ1dHRvbiBhY3Rpb249eygpID0+IHJvdXRlVG9OZXh0UGFnZSh7IHBhZ2VSb3V0ZTogJy90ZXh0LXRvLWltYWdlJ30pfSBidXR0b25MYWJlbD1cIlRleHQgdG8gSW1hZ2VcIiBidXR0b25CYWNrZ3JvdW5kQ29sb3I9XCJncmVlblwiIC8+XG4gICAgICAgIDxCdXR0b24gYWN0aW9uPXsoKSA9PiByb3V0ZVRvTmV4dFBhZ2UoeyBwYWdlUm91dGU6ICcvY291bnRlci1hcHAnfSl9IGJ1dHRvbkxhYmVsPVwiQ29udGFjdCB1c1wiIGJ1dHRvbkJhY2tncm91bmRDb2xvcj1cIm9yYW5nZVwiIC8+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuIl0sIm5hbWVzIjpbIkJ1dHRvbiIsInVzZVJvdXRlciIsIkhvbWUiLCJyb3V0ZXIiLCJyb3V0ZVRvTmV4dFBhZ2UiLCJwYWdlUm91dGUiLCJwdXNoIiwidW5kZWZpbmVkIiwic2hhbGxvdyIsImRpdiIsImNsYXNzTmFtZSIsImgxIiwicCIsImFjdGlvbiIsImJ1dHRvbkxhYmVsIiwiYnV0dG9uQmFja2dyb3VuZENvbG9yIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(pages-dir-node)/./pages/index.tsx\n");
 
 /***/ }),
 
@@ -63,6 +74,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
 
 /***/ }),
 
@@ -176,6 +198,17 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
+
+/***/ }),
+
 /***/ "react/jsx-dev-runtime":
 /*!****************************************!*\
   !*** external "react/jsx-dev-runtime" ***!
@@ -195,6 +228,28 @@ module.exports = require("react/jsx-dev-runtime");
 
 "use strict";
 module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ })
 
